@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Desarrollador de Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.10.5/sweetalert2.all.min.js"></script>
+</head>
+<body>
+
+    <div class="grid-bg" id="gridBg"></div>
+    <div class="scanline"></div>
+
+    <!-- ============================================================
+        NAV SUPERIOR FIJO
+        ============================================================ -->
+    <nav class="navbar" id="navbar">
+        <a href="#sobre-mi" class="logo"><span class="dot"></span>TU.LOGO</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+            <li><a href="#educacion" class="nav-link">Educación y Certificaciones</a></li>
+            <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <main>
+
+    <!-- ============================================================
+        BANNER SOBRE MI
+        ============================================================ -->
+    <header class="hero" id="sobre-mi">
+        <div class="hero-grid">
+        <div class="hero-photo-wrap reveal">
+            <div class="hero-photo-ring"></div>
+            <div class="hero-photo">
+            <!-- Reemplaza este bloque por: <img src="tu-foto.png" alt="Foto de perfil"> -->
+            <!-- La foto debe ser PNG con fondo transparente para que el anillo y el texto se integren -->
+            <div class="placeholder-silhouette">
+                <img src="img/foto.png" alt="">
+            </div>
+            </div>
+        </div>
+
+        <div class="hero-text reveal">
+            <p class="hero-eyebrow">Bienvenido a mi portafolio</p>
+            <h1>Hola, soy Jair Alejandro Forero Rodriguez</h1>
+            <h2 class="hero-roles">
+            <span class="role">Desarrollador de Software</span>
+            <span class="role">Data Analyst</span>
+            <span class="role">Ingeniero Mecatrónico</span>
+            </h2>
+            <p class="hero-desc">
+            <!-- Escribe aquí tu descripción breve: quién eres, qué te apasiona y qué tipo de proyectos buscas -->
+            Soy un profesional orientado al desarrollo de software y análisis de datos, con conocimientos en programación, bases de datos, SQL, Excel, Git/GitHub y desarrollo de aplicaciones web. Tengo experiencia creando sistemas empresariales, ERP, herramientas de seguimiento y soluciones para la gestión, automatización y visualización de información, aplicando el análisis de datos para identificar problemas, optimizar procesos y apoyar la toma de decisiones.
+
+Complemento mi perfil tecnológico con experiencia en diagnóstico, mantenimiento y reparación de maquinaria automotriz, lo que me permite combinar conocimientos técnicos, capacidad analítica y desarrollo de soluciones prácticas para resolver problemas reales.
+            </p>
+            <div class="hero-cta">
+            <a href="#proyectos" class="btn">Ver proyectos</a>
+            <a href="#contacto" class="btn ghost">Contactarme</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="scroll-cue">
+        <span>Desliza</span>
+        <span class="bar"></span>
+        </div>
+    </header>
+
+    <!-- ============================================================
+        EDUCACION Y CERTIFICACIONES
+        ============================================================ -->
+    <section id="educacion">
+        <div class="section-head reveal">
+            <span class="index">02</span>
+            <h2>Educación y Certificaciones</h2>
+            <span class="line"></span>
+        </div>
+        <div class="edu-grid reveal-stagger" id="eduGrid"></div>
+    </section>
+
+    <!-- ============================================================
+        HABILIDADES
+        ============================================================ -->
+    <section id="habilidades">
+        <div class="section-head reveal">
+            <span class="index">03</span>
+            <h2>Mis Habilidades</h2>
+            <span class="line"></span>
+        </div>
+        <div class="skills-tags reveal-stagger" id="skillsTags"></div>
+        <div class="skill-detail" id="skillDetail">
+            <div class="skill-detail-inner" id="skillDetailInner"></div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+        PROYECTOS
+        ============================================================ -->
+    <section id="proyectos">
+        <div class="section-head reveal">
+        <span class="index">04</span>
+        <h2>Mis Proyectos</h2>
+        <span class="line"></span>
+        </div>
+        <div class="proj-grid reveal-stagger" id="projGrid"></div>
+    </section>
+
+    <!-- ============================================================
+        CONTACTO
+        ============================================================ -->
+    <section id="contacto">
+        <div class="section-head reveal">
+        <span class="index">05</span>
+        <h2>Contacto</h2>
+        <span class="line"></span>
+        </div>
+        <div class="contact-grid">
+        <div class="contact-info reveal">
+            <div class="contact-item">
+            <div class="icon">&#9679;</div>
+            <div>
+                <div class="label">Nombre</div>
+                <div class="value" id="cName">Tu Nombre Completo</div>
+            </div>
+            </div>
+            <div class="contact-item">
+            <div class="icon">@</div>
+            <div>
+                <div class="label">Correo</div>
+                <div class="value" id="cEmail">tucorreo@ejemplo.com</div>
+            </div>
+            </div>
+            <div class="contact-item">
+            <div class="icon">&#9742;</div>
+            <div>
+                <div class="label">Teléfono</div>
+                <div class="value" id="cPhone">+57 300 000 0000</div>
+            </div>
+            </div>
+            <div class="contact-item">
+            <div class="icon">&#9673;</div>
+            <div>
+                <div class="label">Ubicación</div>
+                <div class="value">Bogotá, Colombia</div>
+            </div>
+            </div>
+            <div class="social-row">
+            <a href="#" title="LinkedIn">in</a>
+            <a href="#" title="GitHub">gh</a>
+            <a href="#" title="WhatsApp">wa</a>
+            </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+            <h3>¿Interesado en mis servicios o en contratarme?</h3>
+            <p class="sub">Contáctame y te responderé lo antes posible.</p>
+            <div class="form-row">
+            <div class="form-group">
+                <label for="fName">Nombre</label>
+                <input type="text" id="fName" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="fEmail">Correo</label>
+                <input type="email" id="fEmail" required placeholder="tu@correo.com">
+            </div>
+            </div>
+            <div class="form-row">
+            <div class="form-group">
+                <label for="fReason">Motivo</label>
+                <select id="fReason">
+                <option>Interesado en contratarme</option>
+                <option>Consulta sobre un proyecto</option>
+                <option>Propuesta freelance</option>
+                <option>Otro</option>
+                </select>
+            </div>
+            </div>
+            <div class="form-row">
+            <div class="form-group">
+                <label for="fMsg">Mensaje</label>
+                <textarea id="fMsg" required placeholder="Cuéntame en qué puedo ayudarte..."></textarea>
+            </div>
+            </div>
+            <button type="submit" class="btn">Enviar mensaje</button>
+        </form>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+    © <span id="year"></span> — Diseñado y construido con enfoque en sistemas digitales.
+    </footer>
+
+    <!-- ============================================================
+        MODAL DE PROYECTO
+        ============================================================ -->
+    <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box" id="modalBox">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <div class="carousel" id="carousel">
+        <div class="carousel-track" id="carouselTrack"></div>
+        <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+        <div class="modal-content">
+        <h3 id="modalTitle"></h3>
+        <div class="modal-tags" id="modalTags"></div>
+        <p id="modalDesc"></p>
+        <div class="modal-links" id="modalLinks"></div>
+        </div>
+    </div>
+    </div>
+    </body>
+</html>
+<script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/main.js"></script>
