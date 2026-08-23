@@ -465,7 +465,19 @@ const skillsData = [
       categoria: "Mechatronics",
       descripcion: "Knowledge of automation, sensors, actuators, and control systems, integrating programming fundamentals with industrial processes."
     }
-  }
+  },
+  {
+    nombre: "IA",
+    nivel: 100,
+    es: {
+      categoria: "Herramienta",
+      descripcion: "Utilizo la IA para potenciar el desarrollo, automatizar procesos y optimizar flujos de trabajo, reduciendo significativamente el tiempo necesario para tareas complejas."
+    },
+    en: {
+      categoria: "Tool",
+      descripcion: "I use AI to enhance development, automate processes, and optimize workflows, significantly reducing the time required for complex tasks."
+    }
+  },
 
 ];
  
