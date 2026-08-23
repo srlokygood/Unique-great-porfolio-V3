@@ -10,6 +10,8 @@
         <script src="js/script.js?0.011"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.10.5/sweetalert2.all.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     </head>
     <body>
         <div class="grid-bg" id="gridBg"></div>
@@ -173,17 +175,17 @@
                 <div class="form-row">
                 <div class="form-group">
                     <label for="fName" data-i18n="form.name">Nombre</label>
-                    <input type="text" id="fName" required placeholder="Tu nombre" data-i18n-placeholder="form.namePh">
+                    <input type="text" id="fName" name="name" required placeholder="Tu nombre" data-i18n-placeholder="form.namePh">
                 </div>
                 <div class="form-group">
                     <label for="fEmail" data-i18n="form.email">Correo</label>
-                    <input type="email" id="fEmail" required placeholder="tu@correo.com" data-i18n-placeholder="form.emailPh">
+                    <input type="email" id="fEmail" name="email" required placeholder="tu@correo.com" data-i18n-placeholder="form.emailPh">
                 </div>
                 </div>
                 <div class="form-row">
                 <div class="form-group">
                     <label for="fReason" data-i18n="form.reason">Motivo</label>
-                    <select id="fReason">
+                    <select id="fReason" name="project_type">
                         <option data-i18n="form.reason1">Interesado en contratarme</option>
                         <option data-i18n="form.reason2">Consulta sobre un proyecto</option>
                         <option data-i18n="form.reason3">Propuesta freelance</option>
@@ -194,7 +196,7 @@
                 <div class="form-row">
                 <div class="form-group">
                     <label for="fMsg" data-i18n="form.msg">Mensaje</label>
-                    <textarea id="fMsg" required placeholder="Cuéntame en qué puedo ayudarte..." data-i18n-placeholder="form.msgPh"></textarea>
+                    <textarea name="message" id="fMsg" required placeholder="Cuéntame en qué puedo ayudarte..." data-i18n-placeholder="form.msgPh"></textarea>
                 </div>
                 </div>
                 <button type="submit" class="btn" data-i18n="form.submit">Enviar mensaje</button>
@@ -229,3 +231,8 @@
         </div>
     </body> 
 </html>
+<script>
+    emailjs.init({
+        publicKey: "-8S_0gS_pmfzQasqi"
+    });
+</script>
