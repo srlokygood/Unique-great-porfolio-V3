@@ -83,107 +83,489 @@ const educacionData = [
   {
     icon: "&#127891;",
     anio: "2019 — 2022",
-    diploma: "certificados/mecatronica.png", // URL de la imagen del diploma, ej: "assets/diplomas/mecatronica.jpg"
-    es: { titulo: "Ingeniería Mecatrónica", institucion: "El SENA", descripcion: "Formación en sistemas mecánicos, electrónicos y de control automatizado, integrando software embebido con procesos industriales." },
-    en: { titulo: "Mechatronics Engineering", institucion: "Example University", descripcion: "Training in mechanical, electronic and automated control systems, integrating embedded software with industrial processes." }
+    diploma: "certificados/mecatronica.png",
+    es: {
+      titulo: "Ingeniería Mecatrónica",
+      institucion: "SENA",
+      descripcion: "Formación interdisciplinaria en sistemas mecánicos, electrónicos y de control, integrando automatización, programación y tecnologías aplicadas a procesos industriales."
+    },
+    en: {
+      titulo: "Mechatronics Engineering",
+      institucion: "SENA",
+      descripcion: "Interdisciplinary training in mechanical, electronic, and control systems, integrating automation, programming, and technologies applied to industrial processes."
+    }
   },
+
   {
     icon: "&#128187;",
     anio: "2019",
     diploma: "introduccionprogramacion.png",
-    es: { titulo: "Introduccion a la programaciòn", institucion: "Capacitate para el empleo", descripcion: "Certificado en logica de programacion basica y algoritmos programaticos y buenas practicas" },
-    en: { titulo: "Programming introduction", institucion: "Capacitate para el empleo", descripcion: "Certificate in basic programming logic and programming algorithms and good practices" }
+    es: {
+      titulo: "Introducción a la Programación",
+      institucion: "Capacítate para el Empleo",
+      descripcion: "Fundamentos de lógica de programación, algoritmos, resolución de problemas y buenas prácticas para el desarrollo de software."
+    },
+    en: {
+      titulo: "Introduction to Programming",
+      institucion: "Capacítate para el Empleo",
+      descripcion: "Fundamentals of programming logic, algorithms, problem-solving, and good practices for software development."
+    }
   },
+
   {
     icon: "&#128187;",
     anio: "2020",
     diploma: "certificados/logicaprograacion.png",
-    es: { titulo: "Logica de programaciòn", institucion: "Capacitate para el empleo", descripcion: "Curso enfocado en aprender e identificar los algoritmos y logica de la programacion" },
-    en: { titulo: "Programming logic", institucion: "Capacitate para el empleo", descripcion: "A course focused on learning and identifying programming algorithms and logic" }
+    es: {
+      titulo: "Lógica de Programación",
+      institucion: "Capacítate para el Empleo",
+      descripcion: "Desarrollo de habilidades para analizar problemas, diseñar algoritmos y estructurar soluciones mediante fundamentos de lógica computacional."
+    },
+    en: {
+      titulo: "Programming Logic",
+      institucion: "Capacítate para el Empleo",
+      descripcion: "Development of skills to analyze problems, design algorithms, and structure solutions using fundamental computational logic."
+    }
   },
+
   {
     icon: "&#128187;",
     anio: "2022",
     diploma: "certificados/php7.png",
-    es: { titulo: "Novedades PHP 7", institucion: "Linkedin", descripcion: "Curso enfocado en adquirir herramientas para aplicar buenas practicas para optimizacion, seguridad y agilidad en el lenguaje PHP en su septima version" },
-    en: { titulo: "PHP 7 news", institucion: "Linkedin", descripcion: "A course focused on acquiring tools to apply best practices for optimization, security, and agility in PHP version 7" }
+    es: {
+      titulo: "Novedades de PHP 7",
+      institucion: "LinkedIn",
+      descripcion: "Actualización en PHP 7 orientada al desarrollo de aplicaciones más eficientes, seguras y mantenibles, aplicando buenas prácticas y mejoras del lenguaje."
+    },
+    en: {
+      titulo: "PHP 7: New Features",
+      institucion: "LinkedIn",
+      descripcion: "Training in PHP 7 focused on building more efficient, secure, and maintainable applications through best practices and language improvements."
+    }
   },
+
   {
     icon: "&#128187;",
     anio: "2025",
     diploma: "certificados/dtosdtos.png",
-    es: { titulo: "Aspectos básicos: Datos, datos, en todas partes", institucion: "Google / Coursera", descripcion: "Curso basico enfocado en la recopilacion de datos y proposito del analisis de datos" },
-    en: { titulo: "The Basics: Data, data, everywhere", institucion: "Google / Coursera", descripcion: "Basic course focused on data collection and the purpose of data analysis" }
+    es: {
+      titulo: "Aspectos Básicos: Datos, datos, en todas partes",
+      institucion: "Google / Coursera",
+      descripcion: "Fundamentos del análisis de datos, desde la recopilación y organización de información hasta la comprensión de su propósito en la toma de decisiones."
+    },
+    en: {
+      titulo: "The Basics: Data, Data, Everywhere",
+      institucion: "Google / Coursera",
+      descripcion: "Foundations of data analytics, covering data collection and organization, as well as understanding its role in supporting data-driven decision-making."
+    }
   },
+
   {
     icon: "&#128187;",
     anio: "2026",
     diploma: "",
-    es: { titulo: "Analaysis de datos", institucion: "Tripleten", descripcion: "Curso certificado avanzado como analista de datos (En proceso)" },
-    en: { titulo: "Data analyst", institucion: "Tripleten", descripcion: "Advanced Certified Data Analyst Course (in Progress)" }
-  },
+    es: {
+      titulo: "Análisis de Datos",
+      institucion: "TripleTen",
+      descripcion: "Formación avanzada en análisis de datos, con enfoque práctico en SQL, Python, visualización, análisis exploratorio y generación de insights para la toma de decisiones. En proceso."
+    },
+    en: {
+      titulo: "Data Analytics",
+      institucion: "TripleTen",
+      descripcion: "Advanced practical training in data analytics, focusing on SQL, Python, data visualization, exploratory analysis, and generating insights for decision-making. In progress."
+    }
+  }
 ];
  
 // ---- HABILIDADES ----
+
 const skillsData = [
-  { nombre: "GO", nivel: 90, es: { categoria: "Backend", descripcion: "Experiencia con Laravel y PHP vanilla para desarrollar backends robustos, APIs y lógica de negocio en aplicaciones web internas." }, en: { categoria: "Backend", descripcion: "Experience with Laravel and vanilla PHP to build robust backends, APIs and business logic for internal web applications." } },
-  { nombre: "JAVA", nivel: 90, es: { categoria: "Backend", descripcion: "Experiencia con Laravel y PHP vanilla para desarrollar backends robustos, APIs y lógica de negocio en aplicaciones web internas." }, en: { categoria: "Backend", descripcion: "Experience with Laravel and vanilla PHP to build robust backends, APIs and business logic for internal web applications." } },
-  { nombre: "PHP", nivel: 90, es: { categoria: "Backend", descripcion: "Experiencia con Laravel y PHP vanilla para desarrollar backends robustos, APIs y lógica de negocio en aplicaciones web internas." }, en: { categoria: "Backend", descripcion: "Experience with Laravel and vanilla PHP to build robust backends, APIs and business logic for internal web applications." } },
-  { nombre: "JavaScript", nivel: 88, es: { categoria: "Frontend / Lógica", descripcion: "Manejo de JavaScript moderno (ES6+) para interfaces dinámicas, consumo de APIs con fetch/AJAX y componentes interactivos." }, en: { categoria: "Frontend / Logic", descripcion: "Proficient in modern JavaScript (ES6+) for dynamic interfaces, API consumption with fetch/AJAX and interactive components." } },
-  { nombre: "MySQL", nivel: 85, es: { categoria: "Bases de datos", descripcion: "Diseño de esquemas relacionales, consultas optimizadas, procedimientos almacenados y patrones de agregación como GROUP_CONCAT." }, en: { categoria: "Databases", descripcion: "Relational schema design, optimized queries, stored procedures and aggregation patterns such as GROUP_CONCAT." } },
-  { nombre: "Python", nivel: 80, es: { categoria: "Data Analysis", descripcion: "Análisis y limpieza de datos, automatización de procesos y construcción de modelos simples con pandas y librerías de visualización." }, en: { categoria: "Data Analysis", descripcion: "Data analysis and cleaning, process automation and simple modeling with pandas and visualization libraries." } },
-  { nombre: "HTML / CSS", nivel: 92, es: { categoria: "Frontend", descripcion: "Maquetación semántica y estilos avanzados, animaciones, diseño responsivo y sistemas de componentes reutilizables." }, en: { categoria: "Frontend", descripcion: "Semantic markup and advanced styling, animations, responsive design and reusable component systems." } },
-  { nombre: "Control de Versiones", nivel: 82, es: { categoria: "Herramientas", descripcion: "Uso de Git para control de versiones, ramas de trabajo y colaboración en proyectos de software." }, en: { categoria: "Tools", descripcion: "Use of Git for version control, branching workflows and collaboration on software projects." } },
-  { nombre: "Automatización Industrial", nivel: 75, es: { categoria: "Mecatrónica", descripcion: "Fundamentos de PLC, sensores, actuadores e integración de sistemas de control con software de monitoreo." }, en: { categoria: "Mechatronics", descripcion: "Fundamentals of PLCs, sensors, actuators and integration of control systems with monitoring software." } },
-  { nombre: "Angular", nivel: 40, es: { categoria: "Frontend", descripcion: "Experiencia con Laravel y PHP vanilla para desarrollar backends robustos, APIs y lógica de negocio en aplicaciones web internas." }, en: { categoria: "Backend", descripcion: "Experience with Laravel and vanilla PHP to build robust backends, APIs and business logic for internal web applications." } },
-  { nombre: "IONIC", nivel: 40, es: { categoria: "Apps", descripcion: "Experiencia con Laravel y PHP vanilla para desarrollar backends robustos, APIs y lógica de negocio en aplicaciones web internas." }, en: { categoria: "Backend", descripcion: "Experience with Laravel and vanilla PHP to build robust backends, APIs and business logic for internal web applications." } },
-  { nombre: ".NET", nivel: 30, es: { categoria: "Backend", descripcion: "Experiencia con Laravel y PHP vanilla para desarrollar backends robustos, APIs y lógica de negocio en aplicaciones web internas." }, en: { categoria: "Backend", descripcion: "Experience with Laravel and vanilla PHP to build robust backends, APIs and business logic for internal web applications." } },
-  { nombre: "Progressive Web Apps (PWA)", nivel: 100, es: { categoria: "Backend", descripcion: "Experiencia con Laravel y PHP vanilla para desarrollar backends robustos, APIs y lógica de negocio en aplicaciones web internas." }, en: { categoria: "Backend", descripcion: "Experience with Laravel and vanilla PHP to build robust backends, APIs and business logic for internal web applications." } },
-  { nombre: "API Rest", nivel: 60, es: { categoria: "Herramientas", descripcion: "Experiencia con Laravel y PHP vanilla para desarrollar backends robustos, APIs y lógica de negocio en aplicaciones web internas." }, en: { categoria: "Backend", descripcion: "Experience with Laravel and vanilla PHP to build robust backends, APIs and business logic for internal web applications." } }
+
+  {
+    nombre: "Go",
+    nivel: 90,
+    es: {
+      categoria: "Backend", 
+      descripcion: "Desarrollo de aplicaciones backend con enfoque en rendimiento, estructuras de datos, lógica de negocio y construcción de servicios eficientes."
+    },
+    en: {
+      categoria: "Backend",
+      descripcion: "Backend development focused on performance, data structures, business logic, and building efficient services."
+    }
+  },
+
+  {
+    nombre: "Java",
+    nivel: 90,
+    es: {
+      categoria: "Backend",
+      descripcion: "Desarrollo de aplicaciones y lógica de negocio utilizando programación orientada a objetos, estructuras de datos y principios de desarrollo de software."
+    },
+    en: {
+      categoria: "Backend",
+      descripcion: "Application and business logic development using object-oriented programming, data structures, and software development principles."
+    }
+  },
+
+  {
+    nombre: "PHP",
+    nivel: 30,
+    es: {
+      categoria: "Backend",
+      descripcion: "Conocimientos en PHP orientados al desarrollo web, manejo de lógica del servidor y comprensión de aplicaciones backend."
+    },
+    en: {
+      categoria: "Backend",
+      descripcion: "Knowledge of PHP for web development, server-side logic, and understanding of backend applications."
+    }
+  },
+
+  {
+    nombre: "JavaScript",
+    nivel: 88,
+    es: {
+      categoria: "Frontend / Lógica",
+      descripcion: "Desarrollo de interfaces dinámicas, manipulación del DOM, programación de interacciones, consumo de APIs y construcción de funcionalidades para aplicaciones web."
+    },
+    en: {
+      categoria: "Frontend / Logic",
+      descripcion: "Development of dynamic interfaces, DOM manipulation, interactive features, API consumption, and web application functionality."
+    }
+  },
+
+  {
+    nombre: "MySQL",
+    nivel: 85,
+    es: {
+      categoria: "Bases de datos",
+      descripcion: "Diseño y consulta de bases de datos relacionales, filtrado, agrupación, relaciones entre tablas y elaboración de consultas para análisis y gestión de información."
+    },
+    en: {
+      categoria: "Databases",
+      descripcion: "Relational database design and querying, filtering, grouping, table relationships, and query development for data analysis and information management."
+    }
+  },
+
+  {
+    nombre: "Python",
+    nivel: 80,
+    es: {
+      categoria: "Data Analysis",
+      descripcion: "Uso de Python para limpieza, transformación y análisis de datos, automatización de tareas y exploración de información mediante herramientas especializadas."
+    },
+    en: {
+      categoria: "Data Analysis",
+      descripcion: "Using Python for data cleaning, transformation, and analysis, task automation, and data exploration with specialized tools."
+    }
+  },
+
+  {
+    nombre: "HTML / CSS",
+    nivel: 92,
+    es: {
+      categoria: "Frontend",
+      descripcion: "Creación de interfaces web estructuradas y responsivas, aplicando HTML semántico, CSS, diseño adaptable y componentes reutilizables."
+    },
+    en: {
+      categoria: "Frontend",
+      descripcion: "Creation of structured and responsive web interfaces using semantic HTML, CSS, adaptive design, and reusable components."
+    }
+  },
+
+  {
+    nombre: "Git / GitHub",
+    nivel: 82,
+    es: {
+      categoria: "Herramientas",
+      descripcion: "Control de versiones con Git, gestión de repositorios, ramas, commits y publicación de proyectos mediante GitHub."
+    },
+    en: {
+      categoria: "Tools",
+      descripcion: "Version control with Git, repository management, branching, commits, and project publishing through GitHub."
+    }
+  },
+
+  {
+    nombre: "Excel",
+    nivel: 85,
+    es: {
+      categoria: "Data Analysis",
+      descripcion: "Organización, limpieza y análisis de información mediante fórmulas, tablas, filtros, herramientas de análisis y estructuras orientadas al seguimiento de datos."
+    },
+    en: {
+      categoria: "Data Analysis",
+      descripcion: "Data organization, cleaning, and analysis using formulas, tables, filters, analytical tools, and structures for data tracking."
+    }
+  },
+
+  {
+    nombre: "SQL",
+    nivel: 85,
+    es: {
+      categoria: "Data Analysis",
+      descripcion: "Consulta y análisis de bases de datos mediante filtros, JOIN, agregaciones, subconsultas y CTEs para transformar datos en información útil."
+    },
+    en: {
+      categoria: "Data Analysis",
+      descripcion: "Database querying and analysis using filters, JOINs, aggregations, subqueries, and CTEs to transform data into useful information."
+    }
+  },
+
+  {
+    nombre: "Pandas",
+    nivel: 75,
+    es: {
+      categoria: "Data Analysis",
+      descripcion: "Manipulación, limpieza, transformación y exploración de conjuntos de datos mediante DataFrames y operaciones orientadas al análisis."
+    },
+    en: {
+      categoria: "Data Analysis",
+      descripcion: "Data manipulation, cleaning, transformation, and exploration using DataFrames and analysis-oriented operations."
+    }
+  },
+
+  {
+    nombre: "Análisis Exploratorio de Datos",
+    nivel: 75,
+    es: {
+      categoria: "Data Analysis",
+      descripcion: "Exploración de conjuntos de datos para identificar patrones, tendencias, valores atípicos y relaciones que permitan obtener conclusiones relevantes."
+    },
+    en: {
+      categoria: "Data Analysis",
+      descripcion: "Exploration of datasets to identify patterns, trends, outliers, and relationships that can lead to meaningful insights."
+    }
+  },
+
+  {
+    nombre: "Limpieza de Datos",
+    nivel: 80,
+    es: {
+      categoria: "Data Analysis",
+      descripcion: "Preparación y depuración de datos mediante identificación de inconsistencias, valores faltantes, duplicados y estructuras necesarias para el análisis."
+    },
+    en: {
+      categoria: "Data Analysis",
+      descripcion: "Data preparation and cleaning by identifying inconsistencies, missing values, duplicates, and structures required for analysis."
+    }
+  },
+
+  {
+    nombre: "Visualización de Datos",
+    nivel: 70,
+    es: {
+      categoria: "Data Analysis",
+      descripcion: "Representación de información mediante gráficos y visualizaciones orientadas a facilitar la interpretación de datos y comunicar resultados."
+    },
+    en: {
+      categoria: "Data Analysis",
+      descripcion: "Data representation through charts and visualizations designed to facilitate data interpretation and communicate results."
+    }
+  },
+
+  {
+    nombre: "Power BI",
+    nivel: 65,
+    es: {
+      categoria: "Data Analysis",
+      descripcion: "Conocimientos en creación de visualizaciones, organización de información y construcción de reportes orientados al análisis y seguimiento de indicadores."
+    },
+    en: {
+      categoria: "Data Analysis",
+      descripcion: "Knowledge of creating visualizations, organizing information, and building reports for analysis and KPI tracking."
+    }
+  },
+
+  {
+    nombre: "Google Sheets",
+    nivel: 75,
+    es: {
+      categoria: "Data Analysis",
+      descripcion: "Gestión y organización de datos mediante hojas de cálculo, fórmulas, filtros y estructuras colaborativas para seguimiento y análisis de información."
+    },
+    en: {
+      categoria: "Data Analysis",
+      descripcion: "Data management and organization using spreadsheets, formulas, filters, and collaborative structures for information tracking and analysis."
+    }
+  },
+
+  {
+    nombre: "Angular",
+    nivel: 40,
+    es: {
+      categoria: "Frontend",
+      descripcion: "Conocimientos iniciales en desarrollo de aplicaciones frontend utilizando la estructura y componentes del framework Angular."
+    },
+    en: {
+      categoria: "Frontend",
+      descripcion: "Foundational knowledge of frontend application development using Angular's structure and component-based approach."
+    }
+  },
+
+  {
+    nombre: "Ionic",
+    nivel: 40,
+    es: {
+      categoria: "Apps",
+      descripcion: "Conocimientos iniciales en desarrollo de aplicaciones híbridas y adaptación de tecnologías web para entornos móviles."
+    },
+    en: {
+      categoria: "Apps",
+      descripcion: "Foundational knowledge of hybrid application development and adapting web technologies for mobile environments."
+    }
+  },
+
+  {
+    nombre: ".NET",
+    nivel: 30,
+    es: {
+      categoria: "Backend",
+      descripcion: "Conocimientos básicos del ecosistema .NET y sus fundamentos para el desarrollo de aplicaciones y servicios backend."
+    },
+    en: {
+      categoria: "Backend",
+      descripcion: "Basic knowledge of the .NET ecosystem and its fundamentals for developing backend applications and services."
+    }
+  },
+
+  {
+    nombre: "Progressive Web Apps (PWA)",
+    nivel: 100,
+    es: {
+      categoria: "Web",
+      descripcion: "Desarrollo de aplicaciones web progresivas orientadas a ofrecer experiencias similares a aplicaciones nativas, con capacidades de instalación y funcionamiento optimizado en dispositivos."
+    },
+    en: {
+      categoria: "Web",
+      descripcion: "Development of Progressive Web Apps designed to provide app-like experiences, including installability and optimized functionality across devices."
+    }
+  },
+
+  {
+    nombre: "REST API",
+    nivel: 60,
+    es: {
+      categoria: "Backend",
+      descripcion: "Conocimientos en consumo y estructuración de APIs REST para facilitar la comunicación e intercambio de información entre aplicaciones y servicios."
+    },
+    en: {
+      categoria: "Backend",
+      descripcion: "Knowledge of consuming and structuring REST APIs to enable communication and data exchange between applications and services."
+    }
+  },
+
+  {
+    nombre: "Automatización Industrial",
+    nivel: 75,
+    es: {
+      categoria: "Mecatrónica",
+      descripcion: "Conocimientos en automatización, sensores, actuadores y sistemas de control, integrando fundamentos de programación con procesos industriales."
+    },
+    en: {
+      categoria: "Mechatronics",
+      descripcion: "Knowledge of automation, sensors, actuators, and control systems, integrating programming fundamentals with industrial processes."
+    }
+  }
+
 ];
  
 // ---- PROYECTOS ----
 const proyectosData = [
   {
-    tags: ["PHP", "JavaScript", "MySQL", "IndexedDB"],
+    tags: ["PHP", "JavaScript", "MySQL", "IndexedDB", "HTML/CSS"],
     estado: "proceso",
     tipo: "laboral",
     valoracion: { dedicacion: 5, complejidad: 4, utilidad: 5 },
     imagenes: [
-      "https://via.placeholder.com/900x500/060e1a/00e5ff?text=Dashboard+View",
-      "https://via.placeholder.com/900x500/060e1a/2f7bff?text=Service+Calendar",
-      "https://via.placeholder.com/900x500/060e1a/9b5cff?text=Ticket+Management"
+      "proyectos/g-1.png",
+      "proyectos/g-2.png",
+      "proyectos/g-3.png",
+      "proyectos/g-4.png",
+      "proyectos/g-5.png",
     ],
-    link: "#",
-    es: { titulo: "Sistema de Gestión de Servicios", resumen: "Plataforma interna para gestión de tickets, informes y programación de servicios técnicos.", descripcion: "Aplicación web multi-módulo para un taller de mantenimiento de maquinaria, con gestión de tickets, calendario de servicios, generación de informes y control de acceso por roles. Backend en PHP y frontend en JavaScript con guardado offline-first usando IndexedDB." },
-    en: { titulo: "Service Management System", resumen: "Internal platform for ticket management, reports and technical service scheduling.", descripcion: "Multi-module web application for a machinery maintenance workshop, with ticket management, service calendar, report generation and role-based access control. PHP backend and JavaScript frontend with offline-first saving using IndexedDB." }
+    link: "https://masteqsystem.22web.org",
+
+    es: {
+      titulo: "Sistema de Gestión y Seguimiento de Servicios",
+      resumen: "Plataforma web interna para centralizar la gestión de servicios técnicos, tickets, programación, informes y seguimiento de operaciones.",
+      descripcion: "Desarrollo de una plataforma web modular orientada a digitalizar y centralizar la gestión de servicios técnicos en un entorno de mantenimiento de maquinaria. El sistema permite administrar tickets y solicitudes de servicio, programar actividades mediante un calendario, realizar seguimiento del estado de los trabajos, generar informes técnicos y controlar el acceso mediante diferentes roles de usuario. La aplicación cuenta con un backend desarrollado en PHP, una interfaz dinámica en JavaScript y persistencia de información mediante MySQL. Además, incorpora un enfoque offline-first utilizando IndexedDB, permitiendo almacenar temporalmente información en el navegador y continuar trabajando en escenarios con conectividad limitada. El proyecto se encuentra actualmente en proceso de desarrollo y evolución, con nuevas funcionalidades orientadas a mejorar la trazabilidad, organización y automatización de las operaciones de servicio."
+    },
+
+    en: {
+      titulo: "Service Management & Tracking System",
+      resumen: "Internal web platform for centralizing technical service management, ticketing, scheduling, reporting and operational tracking.",
+      descripcion: "Development of a modular web platform designed to digitize and centralize technical service management within a machinery maintenance environment. The system enables users to manage service tickets and requests, schedule activities through a calendar, track work status, generate technical reports and control access through role-based permissions. The application features a PHP backend, a dynamic JavaScript interface and MySQL for data persistence. It also implements an offline-first approach using IndexedDB, allowing information to be temporarily stored in the browser and enabling continued work in environments with limited connectivity. The project is currently under active development, with new features focused on improving service traceability, operational organization and process automation."
+    }
   },
   {
-    tags: ["PHP", "Composer", "Automatización"],
+    tags: ["PHP", "HTML/CSS", "Go", "Angular","JavaScript", "UI/UX"],
     estado: "completado",
     tipo: "laboral",
-    valoracion: { dedicacion: 4, complejidad: 3, utilidad: 4 },
+    valoracion: { dedicacion: 5, complejidad: 5, utilidad: 5 },
     imagenes: [
-      "https://via.placeholder.com/900x500/060e1a/00e5ff?text=PDF+Upload",
-      "https://via.placeholder.com/900x500/060e1a/2f7bff?text=Data+Extraction",
-      "https://via.placeholder.com/900x500/060e1a/9b5cff?text=Excel+Export"
+      "proyectos/erp-1.png",
+      "proyectos/erp-2.png",
     ],
-    link: "#",
-    es: { titulo: "Extractor de Informes PDF a Excel", resumen: "Utilidad para procesar informes técnicos en PDF y estructurarlos automáticamente en Excel.", descripcion: "Herramienta construida en PHP con Composer para extraer 17 campos definidos de informes técnicos en PDF, con modo de procesamiento por lotes (CLI) y carga individual vía web, usando un enfoque de extracción por posición de etiquetas." },
-    en: { titulo: "PDF-to-Excel Report Extractor", resumen: "Utility to process technical PDF reports and automatically structure them into Excel.", descripcion: "Tool built in PHP with Composer to extract 17 defined fields from technical PDF reports, supporting both batch processing (CLI) and individual web uploads, using a label-position extraction approach." }
+    link: "https://erp.systemsweb.net",
+
+    es: {
+      titulo: "ERP / CRM Empresarial",
+      resumen: "Sistema ERP/CRM modular para la gestión, facturación y automatización de procesos empresariales, adaptable a diferentes tipos de negocios.",
+      descripcion: "Desarrollo y mantenimiento de una plataforma ERP/CRM modular orientada a centralizar y automatizar procesos administrativos y operativos de diferentes tipos de negocios, incluyendo centros comerciales, pequeñas empresas, restaurantes y lavaderos de vehículos. El sistema integra funcionalidades de facturación, cotizaciones, gestión de inventario, seguimiento de procesos y administración de información empresarial. Fue desarrollado utilizando tecnologías como PHP, Go, HTML/CSS y Angular, con una arquitectura orientada a la modularidad y escalabilidad para facilitar la incorporación de nuevas funcionalidades según las necesidades de cada negocio. También contempla la integración con APIs y servicios de terceros, incluyendo herramientas relacionadas con la gestión y automatización de redes sociales. Proyecto desarrollado para SystemsWeb."
+    },
+    en: {
+      titulo: "Enterprise ERP / CRM",
+      resumen: "Modular ERP/CRM platform for business management, invoicing and process automation, adaptable to different types of businesses.",
+      descripcion: "Development and maintenance of a modular ERP/CRM platform designed to centralize and automate administrative and operational processes for different types of businesses, including shopping centers, small businesses, restaurants and car washes. The system integrates invoicing, quotations, inventory management, process tracking and business information management. It was developed using technologies such as PHP, Go, HTML/CSS and Angular, following a modular and scalable approach that facilitates the integration of new features according to each business's requirements. The platform also supports integrations with third-party APIs and services, including tools for social media management and automation. Project developed for SystemsWeb."
+    }
   },
   {
-    tags: ["JavaScript", "CSS", "UI/UX"],
+    tags: ["PHP", "HTML/CSS", "Go", "Angular", "JavaScript", "CSS", "UI/UX"],
     estado: "completado",
-    tipo: "personal",
-    valoracion: { dedicacion: 3, complejidad: 3, utilidad: 4 },
+    tipo: "laboral",
+    valoracion: { dedicacion: 5, complejidad: 5, utilidad: 5 },
     imagenes: [
-      "https://via.placeholder.com/900x500/060e1a/00e5ff?text=Client+Selector",
-      "https://via.placeholder.com/900x500/060e1a/2f7bff?text=Live+Filtering"
+      "proyectos/siva-2.png",
+      "proyectos/siva-3.png",
+    ],
+    link: "https://my-siva.com/vetermy",
+
+    es: {
+      titulo: "SIVA — Sistema de Gestión Veterinaria",
+      resumen: "ERP especializado para clínicas y negocios veterinarios, orientado a la gestión de pacientes, facturación, cotizaciones, inventario y procesos administrativos.",
+      descripcion: "Sistema ERP especializado para la gestión integral de establecimientos veterinarios, diseñado para centralizar y optimizar los procesos administrativos y operativos del negocio. La plataforma permite realizar seguimiento de pacientes, gestionar información y procesos asociados a la atención veterinaria, generar y administrar cotizaciones, gestionar facturación y controlar el inventario. El sistema incorpora diferentes herramientas de configuración y personalización para adaptar la plataforma a las necesidades de cada establecimiento. Desarrollado mediante una arquitectura basada en tecnologías como PHP, Go, Angular y JavaScript, con una interfaz enfocada en usabilidad, organización de la información y experiencia de usuario (UI/UX)."
+    },
+
+    en: {
+      titulo: "SIVA — Veterinary Management System",
+      resumen: "Specialized ERP for veterinary clinics and businesses, focused on patient management, invoicing, quotations, inventory and administrative processes.",
+      descripcion: "Specialized ERP system designed to manage and centralize the administrative and operational processes of veterinary clinics and businesses. The platform enables patient tracking, management of veterinary care information and processes, quotation creation and management, invoicing and inventory control. It also includes configuration and customization tools that allow the platform to adapt to the specific needs of each business. Developed using technologies such as PHP, Go, Angular and JavaScript, with an interface focused on usability, information organization and user experience (UI/UX)."
+    }
+  },
+  {
+    tags: ["Go", "HTML/CSS", "SQLite", "UI/UX"],
+    estado: "completado",
+    tipo: "laboral",
+    valoracion: { dedicacion: 5, complejidad: 5, utilidad: 5 },
+    imagenes: [
+      "proyectos/assembly-1.png",
+      "proyectos/assembly-2.png",
+      "proyectos/assembly-3.png",
+      "proyectos/assembly-4.png",
     ],
     link: "#",
-    es: { titulo: "Selector de Clientes con Autocompletado", resumen: "Componente visual de selección de clientes con filtrado en vivo y navegación por teclado.", descripcion: "Componente de UI reutilizable con diseño en grilla 2x2 por elemento, filtrado en tiempo real, navegación con teclado y estilos aislados mediante un prefijo CSS propio para evitar conflictos con el resto del sistema." },
-    en: { titulo: "Client Selector with Autocomplete", resumen: "Visual client selection component with live filtering and keyboard navigation.", descripcion: "Reusable UI component with a 2x2 grid layout per item, real-time filtering, keyboard navigation and isolated styles using a custom CSS prefix to avoid conflicts with the rest of the system." }
+
+    es: {
+      titulo: "ASSEMBLY — Sistema de Gestión de Asambleas",
+      resumen: "Aplicación de escritorio para la gestión y digitalización de asambleas presenciales, incluyendo votaciones, validación de acceso y almacenamiento seguro de información.",
+      descripcion: "Sistema de escritorio diseñado para digitalizar y gestionar asambleas presenciales, facilitando la administración de procesos de votación y el manejo de información durante las sesiones. La aplicación cuenta con un sistema de activación mediante claves únicas, permitiendo validar y controlar el acceso a cada instalación. Desarrollado en Go con SQLite para el almacenamiento local de información, incorpora mecanismos de protección y cifrado de datos para preservar la información relacionada con las votaciones. El sistema también permite integrarse con dispositivos y sistemas de control de terceros para recibir y procesar las interacciones de los participantes durante las asambleas. La interfaz fue diseñada bajo criterios de usabilidad y UI/UX, buscando facilitar la operación del sistema en escenarios presenciales donde la estabilidad y confiabilidad son fundamentales."
+    },
+
+    en: {
+      titulo: "ASSEMBLY — Assembly Management System",
+      resumen: "Desktop application for managing and digitizing in-person assemblies, including voting, access validation and secure data storage.",
+      descripcion: "Desktop application designed to digitize and manage in-person assemblies, facilitating voting processes and information management during sessions. The application includes a unique-key activation system to validate and control access to each installation. Developed in Go with SQLite for local data storage, it incorporates data protection and encryption mechanisms to safeguard voting-related information. The system can also integrate with third-party control devices and systems to receive and process participant interactions during assemblies. Its interface was designed with usability and UI/UX principles in mind, focusing on ease of operation in in-person environments where stability and reliability are essential."
+    }
   }
 ];
  
@@ -497,9 +879,13 @@ window.addEventListener('scroll', () => {
 document.getElementById('contactForm').addEventListener('submit', function(e){
   e.preventDefault();
   const nombre = document.getElementById('fName').value;
- 
   const t = i18n[currentLang].form;
-  if(window.Swal){
+  emailjs.sendForm(
+    "service_qxmqsbm",
+    "template_ocksi6s",
+    this
+  )
+  .then(() => {
     Swal.fire({
       title: t.successTitle,
       text: t.successText(nombre),
@@ -508,9 +894,20 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
       color: '#e8f6ff',
       confirmButtonColor: '#00e5ff'
     });
-  } else {
-    alert(t.successTitle + ' ' + t.successText(nombre));
-  }
+    this.reset();
+  })
+  .catch((error) => {
+    Swal.fire({
+      title: t.successTitle,
+      text: t.successText(nombre),
+      icon: 'error Enviando el mensaje',
+      background: '#060e1a',
+      color: '#e8f6ff',
+      confirmButtonColor: '#00e5ff'
+    });
+    console.error("Error:", error);
+  });
+
   this.reset();
 });
  
