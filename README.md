@@ -43,7 +43,10 @@ This portfolio aims to showcase not only the technologies I am familiar with, bu
 
 The portfolio is still under development, and new projects, analyses, and tools will be added.
 
- 📫 GitHub Contact: [Add link] LinkedIn: [Add link] Portfolio: [Add link] Email: [Add email]
+ 📫 GitHub Contact:
+LinkedIn: https://www.linkedin.com/public-profile/settings/
+Portfolio: https://srlokygood.github.io/Unique-great-porfolio-V3/
+Email: jairalejo82@gmail.com
 
 ⭐ If any of my projects interest you, you can review the code and learn more about how it was developed.
 
@@ -88,8 +91,9 @@ Este portafolio busca mostrar no solamente las tecnologías que conozco, sino pr
 
 El portafolio continúa en desarrollo y se irán incorporando nuevos proyectos, análisis y herramientas.
 
-📫 Contacto GitHub:  
-LinkedIn: https://www.linkedin.com/public-profile/settings/ Portafolio: https://srlokygood.github.io/Unique-great-porfolio-V3/
+📫 Contacto GitHub:
+LinkedIn: https://www.linkedin.com/public-profile/settings/
+Portafolio: https://srlokygood.github.io/Unique-great-porfolio-V3/
 Correo: jairalejo82@gmail.com
 
 ⭐ Si alguno de mis proyectos resulta interesante, puedes revisar su código y conocer más sobre cómo fue desarrollado.
