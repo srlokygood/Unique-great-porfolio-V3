@@ -82,16 +82,14 @@ Análisis de datos
 
 Proyectos orientados al análisis de información para encontrar patrones, medir resultados y apoyar la toma de decisiones.
 
-Entre los proyectos desarrollados se encuentran análisis relacionados con:
-
-Métricas de redes sociales Optimización de recorridos Análisis de ingresos y costos Eficiencia de servicios Visualización de datos 🎯 Objetivo del portafolio
-
 Este portafolio busca mostrar no solamente las tecnologías que conozco, sino principalmente mi capacidad para identificar problemas, desarrollar soluciones y utilizar los datos para mejorar procesos.
 
 📈 En desarrollo
 
 El portafolio continúa en desarrollo y se irán incorporando nuevos proyectos, análisis y herramientas.
 
-📫 Contacto GitHub: [Agregar enlace] LinkedIn: [Agregar enlace] Portafolio: [Agregar enlace] Correo: [Agregar correo]
+📫 Contacto GitHub:  
+LinkedIn: https://www.linkedin.com/public-profile/settings/ Portafolio: https://srlokygood.github.io/Unique-great-porfolio-V3/
+Correo: jairalejo82@gmail.com
 
 ⭐ Si alguno de mis proyectos resulta interesante, puedes revisar su código y conocer más sobre cómo fue desarrollado.
