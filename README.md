@@ -1,3 +1,55 @@
+////////////////English
+
+
+Personal Portfolio — Loky
+
+Personal web portfolio developed to showcase my professional profile, projects, experience, and skills in software development and data analysis.
+
+The project is designed to maintain a simple, responsive, and easy-to-navigate interface, prioritizing the presentation of projects and practical experience.
+
+👨‍💻 About Me
+
+I'm Jair, a developer and mechatronics engineer with experience in systems development, process automation, and data analysis.
+
+I'm interested in combining software development with data analysis to create tools that automate processes, improve decision-making, and increase efficiency.
+
+🛠️ Technologies Used: HTML5, CSS3, JavaScript, Materialize, CSS, Git, GitHub 📊 Areas of Interest: Web Development, Data Analysis, Process Automation, Enterprise Systems Development, Databases, Data Visualization, Process Optimization 📂 Projects: Enterprise Resource Planning (ERP) System
+
+System developed for the management and tracking of business operations.
+
+ Key Features:
+
+Customer Management, Service Tracking, Information Control and Organization, Tracking Dashboards, Process Automation, Information Integration for Facilitated Management
+
+Project developed based on real business operational needs.
+
+Service Tracking System
+
+Tool developed to organize and track technical services.
+
+It allows for centralizing information, visualizing service status, and improving the traceability of activities performed.
+
+Data Analysis
+
+Projects focused on data analysis to identify patterns, measure results, and support decision-making.
+
+Developed projects include analyses related to:
+
+Social Media Metrics, Route Optimization, Revenue and Cost Analysis, Service Efficiency, Data Visualization 🎯 Portfolio Objective
+
+This portfolio aims to showcase not only the technologies I am familiar with, but primarily my ability to identify problems, develop solutions, and use data to improve processes.
+
+📈 Under Development
+
+The portfolio is still under development, and new projects, analyses, and tools will be added.
+
+ 📫 GitHub Contact: [Add link] LinkedIn: [Add link] Portfolio: [Add link] Email: [Add email]
+
+⭐ If any of my projects interest you, you can review the code and learn more about how it was developed.
+
+///////////////Español 
+
+
  Portafolio personal — Loky
 
 Portafolio web personal desarrollado para presentar mi perfil profesional, proyectos, experiencia y habilidades en desarrollo de software y análisis de datos.
