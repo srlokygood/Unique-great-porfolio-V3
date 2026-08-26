@@ -13,7 +13,7 @@ const i18n = {
       role1: "Desarrollador de Software",
       role2: "Data Analyst",
       role3: "Ingeniero Mecatrónico",
-      desc: "Combino ingeniería, análisis de datos y desarrollo de software para construir soluciones robustas de principio a fin. Escribe aquí una breve descripción sobre tu experiencia, enfoque de trabajo y lo que te hace diferente.",
+      desc: "Soy desarrollador de software y analista de datos con formación en ingeniería mecatrónica. Combino estas disciplinas para crear soluciones tecnológicas que conectan **automatización, software, datos y sistemas físicos** Desarrollo herramientas para automatizar procesos y mejorar la eficiencia, utilizo el análisis de datos para generar seguimiento y trazabilidad, y aplico mis conocimientos de ingeniería para integrar tecnología con las necesidades reales de una operación. Mi enfoque es construir soluciones completas: **entender el problema, desarrollar la herramienta, medir sus resultados y optimizar el proceso.**",
       ctaProjects: "Ver proyectos",
       ctaContact: "Contactarme",
       scroll: "Desliza"
@@ -48,7 +48,7 @@ const i18n = {
       role1: "Software Developer",
       role2: "Data Analyst",
       role3: "Mechatronics Engineer",
-      desc: "I combine engineering, data analysis and software development to build robust solutions end to end. Write a short description here about your experience, work approach and what makes you different.",
+      desc: "I am a software developer and data analyst with a background in mechatronics engineering. I combine these disciplines to create technological solutions that connect **automation, software, data, and physical systems**. I develop tools to automate processes and improve efficiency, use data analysis to ensure monitoring and traceability, and apply my engineering knowledge to integrate technology with the real-world needs of an operation. My approach is to build comprehensive solutions: **understanding the problem, developing the tool, measuring results, and optimizing the process.**",
       ctaProjects: "View projects",
       ctaContact: "Get in touch",
       scroll: "Scroll"
